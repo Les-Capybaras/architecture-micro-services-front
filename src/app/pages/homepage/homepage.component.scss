@@ -1,0 +1,25 @@
+.heroTitle{
+  background: #FFFFFF;
+  background: linear-gradient(to right, #2CB67D 5%, #7F5AF0 10%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btnRegisterHero {
+  color: #FFFFFF;
+  background-color: #2CB67D;
+  border-radius: 51px;
+}
+
+.hero-content{
+  display: flex;
+  justify-content: space-between;
+}
+.textWhiteHero{
+  color: #FFFFFF;
+
+}
+
+.container{
+  display: grid;
+  row-gap: 55px;
+}
