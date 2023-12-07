@@ -8,9 +8,12 @@ import {ProfilComponent} from "./service-providers/profil/profil.component";
 import {ProfileClientComponent} from "./webclient/profile-client/profile-client.component";
 import {ChatComponent} from "./service-providers/chat/chat.component";
 import {DashboardComponent} from "./service-providers/dashboard/dashboard.component";
+import {PricesComponent} from "./pages/prices/prices.component";
 
 export const routes: Routes = [
+  // Pages
   { path: '', component: HomepageComponent },
+  { path: 'prices', component: PricesComponent },
 
   // Auth
   { path: 'login', component: SigninComponent },

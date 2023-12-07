@@ -20,21 +20,23 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a class="FontNav font-bold">Accueil</a></li>
+      <li><a routerLink="/" class="FontNav font-bold">Accueil</a></li>
       <li>
         <details>
-          <summary class="FontNav font-bold">Notre solution</summary>
+          <summary class="FontNav font-bold">Mon espace</summary>
           <ul class="p-2">
-            <li><a class="FontNav font-bold">Tatoueurs</a></li>
-            <li><a class="FontNav">tatoués</a></li>
+            <li><a routerLink="/service/dashboard" class="FontNav">Dashboard</a></li>
+            <li><a routerLink="/service/chat" class="FontNav">Chat</a></li>
+            <li><a routerLink="/service/profile" class="FontNav">Profile</a></li>
           </ul>
         </details>
       </li>
-      <li><a class="FontNav font-bold">Tarifs</a></li>
+      <li><a routerLink="/artist" class="FontNav font-bold">Nos Artists</a></li>
+      <li><a routerLink="/prices" class="FontNav font-bold">Tarifs</a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn btn-connexion">Connexion</a>
-    <a class="btn bg-accent btn-register">Inscription</a>
+    <a routerLink="/login" class="btn btn-connexion">Connexion</a>
+    <a routerLink="/register" class="btn bg-accent btn-register">Inscription</a>
   </div>
 </div>
